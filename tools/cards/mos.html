@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Noto Sans CJK KR",sans-serif;background:#222}
+.card{width:1080px;height:1080px;position:relative;overflow:hidden;color:#fff;margin-bottom:20px}
+.bg{position:absolute;inset:0}
+.tag{position:absolute;left:70px;top:70px;background:#c9a227;color:#1d2419;padding:14px 30px;border-radius:14px;font-size:38px;font-weight:700;letter-spacing:-1px}
+.num{display:inline-block;background:#c9a227;color:#1e293b;width:84px;height:84px;border-radius:50%;text-align:center;line-height:84px;font-size:50px;font-weight:900;margin-right:22px;vertical-align:middle}
+.h{position:absolute;left:70px;top:70px;font-size:64px;font-weight:900;letter-spacing:-2px}
+.h span{vertical-align:middle}
+.list{position:absolute;left:70px;right:70px;top:230px}
+.item{background:rgba(255,255,255,.95);color:#1e293b;border-radius:28px;padding:30px 40px;margin-bottom:26px;display:flex;align-items:center;font-size:44px;font-weight:700;letter-spacing:-1px}
+.item .ic{font-size:60px;width:96px;flex:none}
+.item small{display:block;font-size:30px;font-weight:500;color:#475569;margin-top:6px}
+.foot{position:absolute;left:0;right:0;bottom:0;height:90px;background:rgba(15,23,42,.85);font-size:30px;line-height:90px;text-align:center;color:#cbd5e1;letter-spacing:-.5px}
+</style></head><body>
+
+
+<div class="card" id="c1" style="background:linear-gradient(165deg,#3e4d30,#26301d)">
+<svg class="bg" viewBox="0 0 1080 1080">
+ <g opacity=".14" fill="#c9a227">
+  <circle cx="900" cy="760" r="300"/>
+ </g>
+ <g transform="translate(610 560)">
+  <rect x="0" y="0" width="360" height="400" rx="28" fill="#f3f1e7"/>
+  <rect x="0" y="0" width="360" height="70" rx="28" fill="#c9a227"/><rect x="0" y="40" width="360" height="30" fill="#c9a227"/>
+  <g font-family="Noto Sans CJK KR" font-weight="700" font-size="34" fill="#1d2419">
+   <text x="40" y="140">🚚 운전병</text><text x="40" y="210">🍳 취사병</text><text x="40" y="280">📁 행정병</text><text x="40" y="350">📡 통신병</text>
+  </g>
+  <g fill="#4b5d3a"><circle cx="315" cy="128" r="14"/><circle cx="315" cy="198" r="14"/><circle cx="315" cy="268" r="14"/><circle cx="315" cy="338" r="14"/></g>
+ </g>
+</svg>
+<div class="tag">ROK ADVISER · 보직·병과</div>
+<div style="position:absolute;left:70px;top:190px;font-weight:900;letter-spacing:-3px;line-height:1.15;text-shadow:0 6px 18px rgba(0,0,0,.4)">
+ <div style="font-size:112px">육군 보직</div>
+ <div style="font-size:112px">종류 <span style="color:#e0bc4a">총정리</span></div>
+</div>
+<div style="position:absolute;left:70px;top:470px;font-size:42px;font-weight:700;color:#e8e6da;line-height:1.5">하는 일 · 장단점<br>모집병 지원 방법</div>
+<div style="position:absolute;left:70px;bottom:70px;font-size:30px;color:#c8cdb8">현역 운전병이 직접 정리</div>
+</div>
+
+<div class="card" id="c2" style="background:linear-gradient(160deg,#3a4630,#232b1c)">
+<div class="h"><span class="num">1</span><span>보직은 어떻게 정해질까?</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🎯</div><div>일반 입영<small>훈련소에서 적성·전공·자격증·부대 수요로 분류</small></div></div>
+ <div class="item"><div class="ic">📝</div><div>모집병 지원<small>병무청 '군지원(모집병)'으로 특기를 미리 선택</small></div></div>
+ <div class="item"><div class="ic">✅</div><div>원하는 보직이 확실하다면<small>모집병 지원이 가장 확실해요</small></div></div>
+</div>
+<div class="foot">지원 자격은 특기마다 달라요 · 병무청 공고 확인</div>
+</div>
+
+<div class="card" id="c3" style="background:linear-gradient(160deg,#2f3d44,#1c262b)">
+<div class="h"><span class="num">2</span><span>주요 보직 한 줄 요약</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🚚</div><div>운전병<small>운행 경험·경력 증명 / 사고 책임감</small></div></div>
+ <div class="item"><div class="ic">🍳</div><div>취사병<small>요리 실력 UP / 이른 기상</small></div></div>
+ <div class="item"><div class="ic">📁</div><div>행정병<small>실내 근무 / 늘 긴장되는 사무실</small></div></div>
+ <div class="item"><div class="ic">📡</div><div>통신병<small>장비 기술 / 훈련 때 매우 바쁨</small></div></div>
+</div>
+</div>
+
+<div class="card" id="c4" style="background:linear-gradient(160deg,#4a3f2a,#2b2418)">
+<div class="h"><span class="num">3</span><span>이런 사람에게 추천</span></div>
+<div class="list" style="display:grid;grid-template-columns:1fr 1fr;gap:26px">
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:44px"><div class="ic" style="width:auto;font-size:80px">🚚</div>운전병<small>운전 좋아하고 책임감 있는 사람</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:44px"><div class="ic" style="width:auto;font-size:80px">🍳</div>취사병<small>요리 관심 + 아침형 인간</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:44px"><div class="ic" style="width:auto;font-size:80px">📁</div>행정병<small>꼼꼼하고 컴퓨터 잘하는 사람</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:44px"><div class="ic" style="width:auto;font-size:80px">📡</div>통신병<small>장비·기계에 관심 있는 사람</small></div>
+</div>
+</div>
+
+<div class="card" id="c5" style="background:linear-gradient(160deg,#3e4d30,#1f2818)">
+<div class="h"><span class="num">4</span><span>보직 고를 때 체크리스트</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🎓</div><div>전역 후에 남는 것<small>경력·실력·자격증으로 이어지는지</small></div></div>
+ <div class="item"><div class="ic">⏰</div><div>내 생활 패턴<small>아침잠 많으면 취사병은 신중하게</small></div></div>
+ <div class="item"><div class="ic">💪</div><div>편함보다 적성<small>좋아하는 일을 고른 동기들이 더 잘 버텨요</small></div></div>
+</div>
+<div class="foot">남들이 편하다는 보직보다, 내가 버틸 수 있는 보직</div>
+</div>
+</body></html>
