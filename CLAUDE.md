@@ -1,4 +1,4 @@
-# rokadviser.kr (ROK 어드바이저)
+# rokadviser.kr (ROKADVISER)
 
 현역 육군 운전병이 운영하는 **군생활 정보 정리 사이트**. GitHub Pages(`main` 브랜치 `/docs`)로 배포되고, 도메인은 rokadviser.kr.
 운영자의 네이버 블로그(blog.naver.com/pstarline_)와는 **별개 채널**이다. 네이버 글과 주제·문장이 겹치면 안 된다(유사문서 판정 위험).
