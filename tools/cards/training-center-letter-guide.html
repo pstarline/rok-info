@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Noto Sans CJK KR",sans-serif;background:#222}
+.card{width:1080px;height:1080px;position:relative;overflow:hidden;color:#fff;margin-bottom:20px}
+.bg{position:absolute;inset:0}
+.tag{position:absolute;left:70px;top:70px;background:#c9a227;color:#1d2419;padding:14px 30px;border-radius:14px;font-size:38px;font-weight:700;letter-spacing:-1px}
+.num{display:inline-block;background:#c9a227;color:#1e293b;width:84px;height:84px;border-radius:50%;text-align:center;line-height:84px;font-size:50px;font-weight:900;margin-right:22px;vertical-align:middle}
+.h{position:absolute;left:70px;top:70px;font-size:64px;font-weight:900;letter-spacing:-2px}
+.h span{vertical-align:middle}
+.list{position:absolute;left:70px;right:70px;top:230px}
+.item{background:rgba(255,255,255,.95);color:#1e293b;border-radius:28px;padding:30px 40px;margin-bottom:26px;display:flex;align-items:center;font-size:44px;font-weight:700;letter-spacing:-1px}
+.item .ic{font-size:60px;width:96px;flex:none}
+.item small{display:block;font-size:30px;font-weight:500;color:#475569;margin-top:6px}
+.foot{position:absolute;left:0;right:0;bottom:0;height:90px;background:rgba(15,23,42,.85);font-size:30px;line-height:90px;text-align:center;color:#cbd5e1;letter-spacing:-.5px}
+</style></head><body>
+
+
+<div class="card" id="c1" style="background:linear-gradient(165deg,#3e4d30,#26301d)">
+<svg class="bg" viewBox="0 0 1080 1080">
+ <circle cx="860" cy="800" r="290" fill="#c9a227" opacity=".14"/>
+ <g transform="translate(600 600) rotate(-8)">
+  <rect x="0" y="0" width="380" height="250" rx="18" fill="#f3f1e7"/>
+  <path d="M0 18 L190 150 L380 18" fill="none" stroke="#c9a227" stroke-width="14" stroke-linejoin="round"/>
+  <rect x="290" y="30" width="62" height="74" rx="6" fill="#4b5d3a"/>
+  <path d="M308 58 l14 14 l24 -26" stroke="#e0bc4a" stroke-width="7" fill="none" stroke-linecap="round"/>
+ </g>
+ <g transform="translate(700 520) rotate(10)">
+  <path d="M0 40 C0 10 40 0 52 26 C64 0 104 10 104 40 C104 74 52 100 52 100 C52 100 0 74 0 40Z" fill="#e0bc4a"/>
+ </g>
+</svg>
+<div class="tag">ROKADVISER · 훈련소</div>
+<div style="position:absolute;left:70px;top:190px;font-weight:900;letter-spacing:-3px;line-height:1.15;text-shadow:0 6px 18px rgba(0,0,0,.4)">
+ <div style="font-size:104px">훈련소</div>
+ <div style="font-size:104px">인터넷 편지</div>
+ <div style="font-size:104px;color:#e0bc4a">보내는 법</div>
+</div>
+<div style="position:absolute;left:70px;top:590px;font-size:40px;font-weight:700;color:#e8e6da;line-height:1.5">보내는 곳 · 기간<br>잘 쓰는 팁</div>
+<div style="position:absolute;left:70px;bottom:70px;font-size:30px;color:#c8cdb8">현역 병사가 직접 정리</div>
+</div>
+
+<div class="card" id="c2" style="background:linear-gradient(160deg,#3a4630,#232b1c)">
+<div class="h"><span class="num">1</span><span>어디서 보낼까?</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🏫</div><div>교육기관 누리집<small>훈련소 공식 홈페이지 '인터넷 편지' 메뉴</small></div></div>
+ <div class="item"><div class="ic">📱</div><div>군 소통 앱<small>더캠프 같은 앱으로 휴대폰에서 작성</small></div></div>
+ <div class="item"><div class="ic">🔎</div><div>필요한 정보<small>이름 · 생년월일 · 입영일</small></div></div>
+</div>
+<div class="foot">동명이인 주의! 소속까지 꼭 확인하세요</div>
+</div>
+
+<div class="card" id="c3" style="background:linear-gradient(160deg,#2f3d44,#1c262b)">
+<div class="h"><span class="num">2</span><span>언제 보낼 수 있을까?</span></div>
+<div class="list">
+ <div class="item"><div class="ic">📋</div><div>소대 배치 후 시작<small>입소 직후 분류 기간에는 아직 안 열려요</small></div></div>
+ <div class="item"><div class="ic">🖨️</div><div>하루 한 번 전달<small>출력해서 저녁 무렵 나눠줘요</small></div></div>
+ <div class="item"><div class="ic">✉️</div><div>손편지도 가능<small>일반 우편은 도착까지 며칠 걸려요</small></div></div>
+</div>
+<div class="foot">정확한 기간은 교육기관·기수마다 달라요</div>
+</div>
+
+<div class="card" id="c4" style="background:linear-gradient(160deg,#4a3f2a,#2b2418)">
+<div class="h"><span class="num">3</span><span>쓸 때 알아둘 규칙</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🔢</div><div>글자 수 제한<small>길면 (1/3), (2/3) 번호 붙여 나눠 보내기</small></div></div>
+ <div class="item"><div class="ic">🖼️</div><div>사진은 대부분 불가<small>글로 장면을 그려 주세요</small></div></div>
+ <div class="item"><div class="ic">👀</div><div>남이 볼 수도 있어요<small>너무 사적인 이야기는 줄이기</small></div></div>
+</div>
+</div>
+
+<div class="card" id="c5" style="background:linear-gradient(160deg,#3e4d30,#1f2818)">
+<div class="h"><span class="num">4</span><span>반가운 인편 내용</span></div>
+<div class="list" style="display:grid;grid-template-columns:1fr 1fr;gap:26px">
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:42px"><div class="ic" style="width:auto;font-size:76px">⚾</div>경기 결과<small>응원팀 소식은 언제나 1순위</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:42px"><div class="ic" style="width:auto;font-size:76px">📰</div>뉴스 요약<small>바깥 소식 짧게 정리</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:42px"><div class="ic" style="width:auto;font-size:76px">🐶</div>가족 근황<small>반려동물 이야기도 좋아요</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 32px;font-size:42px"><div class="ic" style="width:auto;font-size:76px">🍗</div>수료식 계획<small>먹고 싶은 메뉴 물어보기</small></div>
+</div>
+<div class="foot">길게 가끔보다, 짧게 자주!</div>
+</div>
+</body></html>
