@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Noto Sans CJK KR",sans-serif;background:#222}
+.card{width:1080px;height:1080px;position:relative;overflow:hidden;color:#fff;margin-bottom:20px}
+.bg{position:absolute;inset:0}
+.tag{position:absolute;left:70px;top:70px;background:#c9a227;color:#1d2419;padding:14px 30px;border-radius:14px;font-size:38px;font-weight:700;letter-spacing:-1px}
+.num{display:inline-block;background:#c9a227;color:#1e293b;width:84px;height:84px;border-radius:50%;text-align:center;line-height:84px;font-size:50px;font-weight:900;margin-right:22px;vertical-align:middle}
+.h{position:absolute;left:70px;top:70px;font-size:64px;font-weight:900;letter-spacing:-2px}
+.h span{vertical-align:middle}
+.list{position:absolute;left:70px;right:70px;top:230px}
+.item{background:rgba(255,255,255,.95);color:#1e293b;border-radius:28px;padding:30px 40px;margin-bottom:26px;display:flex;align-items:center;font-size:44px;font-weight:700;letter-spacing:-1px}
+.item .ic{font-size:60px;width:96px;flex:none}
+.item small{display:block;font-size:30px;font-weight:500;color:#475569;margin-top:6px}
+.foot{position:absolute;left:0;right:0;bottom:0;height:90px;background:rgba(15,23,42,.85);font-size:30px;line-height:90px;text-align:center;color:#cbd5e1;letter-spacing:-.5px}
+</style></head><body>
+
+
+<div class="card" id="c1" style="background:linear-gradient(165deg,#3e4d30,#26301d)">
+<svg class="bg" viewBox="0 0 1080 1080">
+ <circle cx="860" cy="800" r="290" fill="#c9a227" opacity=".14"/>
+ <g transform="translate(640 560)">
+  <rect x="0" y="0" width="320" height="380" rx="28" fill="#f3f1e7"/>
+  <rect x="0" y="0" width="320" height="80" rx="28" fill="#4b5d3a"/><rect x="0" y="50" width="320" height="30" fill="#4b5d3a"/>
+  <g fill="#c9a227"><rect x="40" y="290" width="44" height="50" rx="6"/><rect x="104" y="240" width="44" height="100" rx="6"/><rect x="168" y="185" width="44" height="155" rx="6"/><rect x="232" y="120" width="44" height="220" rx="6"/></g>
+ </g>
+ <g transform="translate(600 500)"><circle r="62" fill="#e0bc4a"/><circle r="46" fill="none" stroke="#a8861c" stroke-width="6"/><text x="0" y="16" text-anchor="middle" font-family="Noto Sans CJK KR" font-weight="900" font-size="44" fill="#5a4710">₩</text></g>
+</svg>
+<div class="tag">ROKADVISER · 급여·혜택</div>
+<div style="position:absolute;left:70px;top:190px;font-weight:900;letter-spacing:-3px;line-height:1.15;text-shadow:0 6px 18px rgba(0,0,0,.4)">
+ <div style="font-size:100px">장병내일</div>
+ <div style="font-size:100px">준비적금</div>
+ <div style="font-size:100px;color:#e0bc4a">총정리</div>
+</div>
+<div style="position:absolute;left:70px;top:580px;font-size:40px;font-weight:700;color:#e8e6da;line-height:1.5">가입 자격 · 월 55만원<br>매칭지원금 100%</div>
+<div style="position:absolute;left:70px;bottom:70px;font-size:30px;color:#c8cdb8">현역 병사가 공식 안내 기준으로 정리</div>
+</div>
+
+<div class="card" id="c2" style="background:linear-gradient(160deg,#3a4630,#232b1c)">
+<div class="h"><span class="num">1</span><span>누가, 언제 가입할까?</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🪖</div><div>현역병·사회복무요원 등<small>병역의무를 이행 중인 사람</small></div></div>
+ <div class="item"><div class="ic">📅</div><div>남은 복무 1개월 이상<small>가입일 기준</small></div></div>
+ <div class="item"><div class="ic">📄</div><div>가입자격확인서<small>유효기간 3개월</small></div></div>
+ <div class="item"><div class="ic">🏁</div><div>만기 = 전역 예정일<small>늦게 들수록 납입 횟수가 줄어요</small></div></div>
+</div>
+</div>
+
+<div class="card" id="c3" style="background:linear-gradient(160deg,#2f3d44,#1c262b)">
+<div class="h"><span class="num">2</span><span>얼마까지 넣을 수 있을까?</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🏦</div><div>은행별 월 30만 원 이내<small>은행마다 한 사람당 한 계좌</small></div></div>
+ <div class="item"><div class="ic">➕</div><div>합산 월 55만 원<small>40만 원에서 상향</small></div></div>
+ <div class="item"><div class="ic">🎚️</div><div>매달 금액 조절 가능<small>한도 안에서 자유롭게 적립</small></div></div>
+</div>
+<div class="foot">55만 원을 채우려면 보통 두 은행에 나눠 가입</div>
+</div>
+
+<div class="card" id="c4" style="background:linear-gradient(160deg,#4a3f2a,#2b2418)">
+<div class="h"><span class="num">3</span><span>매칭지원금 구조</span></div>
+<div class="list">
+ <div class="item"><div class="ic">💰</div><div>원금의 100% 지원<small>2024년 이후 납입분부터</small></div></div>
+ <div class="item"><div class="ic">🧮</div><div>18개월 × 55만 원<small>원금 990만 + 지원금 990만 = 1,980만 원(이자 별도)</small></div></div>
+ <div class="item"><div class="ic">🚫</div><div>안 넣은 달은 지원금 0원<small>만기 해지 후 한꺼번에 지급</small></div></div>
+</div>
+</div>
+
+<div class="card" id="c5" style="background:linear-gradient(160deg,#3e4d30,#1f2818)">
+<div class="h"><span class="num">4</span><span>중도해지 전 체크</span></div>
+<div class="list">
+ <div class="item"><div class="ic">📉</div><div>낮은 중도해지 금리<small>만기 금리가 아니라 기간별 금리</small></div></div>
+ <div class="item"><div class="ic">⚠️</div><div>매칭지원금을 못 받을 수 있음<small>만기 해지자 대상</small></div></div>
+ <div class="item"><div class="ic">📞</div><div>해지 전 부대에 먼저 확인<small>은행 안내 권고 사항</small></div></div>
+</div>
+<div class="foot">급하지 않다면 납입액을 줄여서라도 유지</div>
+</div>
+</body></html>
