@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Noto Sans CJK KR",sans-serif;background:#222}
+.card{width:1080px;height:1080px;position:relative;overflow:hidden;color:#fff;margin-bottom:20px}
+.bg{position:absolute;inset:0}
+.tag{position:absolute;left:70px;top:70px;background:#c9a227;color:#1d2419;padding:14px 30px;border-radius:14px;font-size:38px;font-weight:700;letter-spacing:-1px}
+.num{display:inline-block;background:#c9a227;color:#1e293b;width:84px;height:84px;border-radius:50%;text-align:center;line-height:84px;font-size:50px;font-weight:900;margin-right:22px;vertical-align:middle}
+.h{position:absolute;left:70px;top:70px;font-size:64px;font-weight:900;letter-spacing:-2px}
+.h span{vertical-align:middle}
+.list{position:absolute;left:70px;right:70px;top:230px}
+.item{background:rgba(255,255,255,.95);color:#1e293b;border-radius:28px;padding:30px 40px;margin-bottom:26px;display:flex;align-items:center;font-size:44px;font-weight:700;letter-spacing:-1px}
+.item .ic{font-size:60px;width:96px;flex:none}
+.item small{display:block;font-size:30px;font-weight:500;color:#475569;margin-top:6px}
+.foot{position:absolute;left:0;right:0;bottom:0;height:90px;background:rgba(15,23,42,.85);font-size:30px;line-height:90px;text-align:center;color:#cbd5e1;letter-spacing:-.5px}
+</style></head><body>
+
+
+<div class="card" id="c1" style="background:linear-gradient(165deg,#3e4d30,#26301d)">
+<svg class="bg" viewBox="0 0 1080 1080">
+ <circle cx="860" cy="800" r="290" fill="#c9a227" opacity=".14"/>
+ <g transform="translate(640 600)">
+  <rect x="0" y="0" width="340" height="210" rx="22" fill="#f3f1e7"/>
+  <rect x="0" y="40" width="340" height="40" fill="#4b5d3a"/>
+  <rect x="30" y="120" width="120" height="18" rx="9" fill="#d8d6c8"/><rect x="30" y="152" width="80" height="18" rx="9" fill="#d8d6c8"/>
+  <text x="310" y="170" text-anchor="end" font-family="Noto Sans CJK KR" font-weight="900" font-size="44" fill="#4b5d3a">150만</text>
+ </g>
+ <g transform="translate(600 520) rotate(-10)">
+  <rect x="0" y="0" width="200" height="110" rx="12" fill="#e0bc4a"/>
+  <circle cx="100" cy="55" r="32" fill="none" stroke="#8a6d14" stroke-width="6"/>
+  <text x="100" y="70" text-anchor="middle" font-family="Noto Sans CJK KR" font-weight="900" font-size="40" fill="#8a6d14">₩</text>
+ </g>
+</svg>
+<div class="tag">ROKADVISER · 급여·혜택</div>
+<div style="position:absolute;left:70px;top:190px;font-weight:900;letter-spacing:-3px;line-height:1.15;text-shadow:0 6px 18px rgba(0,0,0,.4)">
+ <div style="font-size:104px">2026</div>
+ <div style="font-size:104px">병사 월급</div>
+ <div style="font-size:104px;color:#e0bc4a">총정리</div>
+</div>
+<div style="position:absolute;left:70px;top:590px;font-size:40px;font-weight:700;color:#e8e6da;line-height:1.5">계급별 봉급 · 동결 이유<br>'병장 205만원'의 의미</div>
+<div style="position:absolute;left:70px;bottom:70px;font-size:30px;color:#c8cdb8">현역 병사가 공식 자료 기준으로 정리</div>
+</div>
+
+<div class="card" id="c2" style="background:linear-gradient(160deg,#3a4630,#232b1c)">
+<div class="h"><span class="num">1</span><span>2026년 계급별 봉급</span></div>
+<div class="list" style="display:grid;grid-template-columns:1fr 1fr;gap:26px">
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 34px;font-size:40px">이병<small style="font-size:56px;font-weight:900;color:#4b5d3a">75만 원</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 34px;font-size:40px">일병<small style="font-size:56px;font-weight:900;color:#4b5d3a">90만 원</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 34px;font-size:40px">상병<small style="font-size:56px;font-weight:900;color:#4b5d3a">120만 원</small></div>
+ <div class="item" style="flex-direction:column;align-items:flex-start;margin:0;padding:36px 34px;font-size:40px">병장<small style="font-size:56px;font-weight:900;color:#4b5d3a">150만 원</small></div>
+</div>
+<div class="foot">2026년은 동결 · 간부와의 보수 격차 유지 (e-나라지표)</div>
+</div>
+
+<div class="card" id="c3" style="background:linear-gradient(160deg,#2f3d44,#1c262b)">
+<div class="h"><span class="num">2</span><span>'병장 205만 원'의 정체</span></div>
+<div class="list">
+ <div class="item"><div class="ic">💵</div><div>병장 봉급 150만 원<small>매달 통장에 들어오는 돈</small></div></div>
+ <div class="item"><div class="ic">➕</div><div>매칭지원금 최대 55만 원<small>적금 한도를 채웠을 때, 만기 후 지급</small></div></div>
+ <div class="item"><div class="ic">⚠️</div><div>계급별 매칭 한도는 없음<small>개인 월 55만 원 · 계좌당 30만 원</small></div></div>
+</div>
+</div>
+
+<div class="card" id="c4" style="background:linear-gradient(160deg,#4a3f2a,#2b2418)">
+<div class="h"><span class="num">3</span><span>진급 = 월급</span></div>
+<div class="list">
+ <div class="item"><div class="ic">⬆️</div><div>이병 → 일병 2개월<small>봉급 +15만 원</small></div></div>
+ <div class="item"><div class="ic">⬆️</div><div>일병 → 상병 6개월<small>봉급 +30만 원</small></div></div>
+ <div class="item"><div class="ic">⬆️</div><div>상병 → 병장 6개월<small>봉급 +30만 원</small></div></div>
+</div>
+<div class="foot">진급이 밀리면 봉급 인상도 밀려요 · 징계 주의</div>
+</div>
+
+<div class="card" id="c5" style="background:linear-gradient(160deg,#3e4d30,#1f2818)">
+<div class="h"><span class="num">4</span><span>월급 관리 팁</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🧾</div><div>병 봉급은 비과세<small>세금 없이 그대로 입금</small></div></div>
+ <div class="item"><div class="ic">🔁</div><div>봉급날 적금 자동이체<small>남은 돈으로 한 달 쓰기</small></div></div>
+ <div class="item"><div class="ic">📝</div><div>한 달 쓸 돈 정해 두기<small>월말에 돈이 애매하게 남지 않게</small></div></div>
+</div>
+</div>
+</body></html>
