@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Noto Sans CJK KR",sans-serif;background:#222}
+.card{width:1080px;height:1080px;position:relative;overflow:hidden;color:#fff;margin-bottom:20px}
+.bg{position:absolute;inset:0}
+.tag{position:absolute;left:70px;top:70px;background:#c9a227;color:#1d2419;padding:14px 30px;border-radius:14px;font-size:38px;font-weight:700;letter-spacing:-1px}
+.num{display:inline-block;background:#c9a227;color:#1e293b;width:84px;height:84px;border-radius:50%;text-align:center;line-height:84px;font-size:50px;font-weight:900;margin-right:22px;vertical-align:middle}
+.h{position:absolute;left:70px;top:70px;font-size:64px;font-weight:900;letter-spacing:-2px}
+.h span{vertical-align:middle}
+.list{position:absolute;left:70px;right:70px;top:230px}
+.item{background:rgba(255,255,255,.95);color:#1e293b;border-radius:28px;padding:30px 40px;margin-bottom:26px;display:flex;align-items:center;font-size:44px;font-weight:700;letter-spacing:-1px}
+.item .ic{font-size:60px;width:96px;flex:none}
+.item small{display:block;font-size:30px;font-weight:500;color:#475569;margin-top:6px}
+.foot{position:absolute;left:0;right:0;bottom:0;height:90px;background:rgba(15,23,42,.85);font-size:30px;line-height:90px;text-align:center;color:#cbd5e1;letter-spacing:-.5px}
+</style></head><body>
+
+
+<div class="card" id="c1" style="background:linear-gradient(165deg,#3e4d30,#26301d)">
+<svg class="bg" viewBox="0 0 1080 1080">
+ <circle cx="860" cy="800" r="290" fill="#c9a227" opacity=".14"/>
+ <g transform="translate(640 560)">
+  <rect x="0" y="0" width="330" height="330" rx="26" fill="#f3f1e7"/>
+  <rect x="0" y="0" width="330" height="80" rx="26" fill="#4b5d3a"/><rect x="0" y="50" width="330" height="30" fill="#4b5d3a"/>
+  <rect x="70" y="-24" width="20" height="56" rx="10" fill="#c9a227"/><rect x="240" y="-24" width="20" height="56" rx="10" fill="#c9a227"/>
+  <g fill="#d8d6c8"><rect x="36" y="110" width="50" height="40" rx="8"/><rect x="104" y="110" width="50" height="40" rx="8"/><rect x="172" y="110" width="50" height="40" rx="8"/><rect x="240" y="110" width="50" height="40" rx="8"/><rect x="36" y="170" width="50" height="40" rx="8"/><rect x="104" y="170" width="50" height="40" rx="8"/></g>
+  <rect x="172" y="170" width="50" height="40" rx="8" fill="#c9a227"/>
+  <path d="M120 270 H250 M220 248 l30 22 l-30 22" stroke="#4b5d3a" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+</svg>
+<div class="tag">ROKADVISER · 입대 준비</div>
+<div style="position:absolute;left:70px;top:190px;font-weight:900;letter-spacing:-3px;line-height:1.15;text-shadow:0 6px 18px rgba(0,0,0,.4)">
+ <div style="font-size:104px">현역병</div>
+ <div style="font-size:104px">입영 연기</div>
+ <div style="font-size:104px;color:#e0bc4a">총정리</div>
+</div>
+<div style="position:absolute;left:70px;top:590px;font-size:40px;font-weight:700;color:#e8e6da;line-height:1.5">사유별 기간 · 5회·2년 한도<br>2026년 7월 변경점</div>
+<div style="position:absolute;left:70px;bottom:70px;font-size:30px;color:#c8cdb8">병무청 안내 기준으로 정리</div>
+</div>
+
+<div class="card" id="c2" style="background:linear-gradient(160deg,#3a4630,#232b1c)">
+<div class="h"><span class="num">1</span><span>연기 한도</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🔢</div><div>최대 5회<small>재난·행방불명·24세 이하 취업 등은 예외</small></div></div>
+ <div class="item"><div class="ic">⏳</div><div>합쳐서 2년 이내<small>모든 연기 기간을 더한 기준</small></div></div>
+ <div class="item"><div class="ic">🆕</div><div>질병 사유도 횟수 포함<small>2026년 7월 1일부터 변경</small></div></div>
+</div>
+</div>
+
+<div class="card" id="c3" style="background:linear-gradient(160deg,#2f3d44,#1c262b)">
+<div class="h"><span class="num">2</span><span>사유별 연기 기간</span></div>
+<div class="list">
+ <div class="item" style="padding:24px 40px"><div class="ic">🏥</div><div>질병·심신장애<small>90일 범위</small></div></div>
+ <div class="item" style="padding:24px 40px"><div class="ic">👪</div><div>가족 위독·사망 등<small>30일 범위, 통틀어 60일까지</small></div></div>
+ <div class="item" style="padding:24px 40px"><div class="ic">📝</div><div>각 군 모집시험 응시<small>선발 결과 발표 시까지</small></div></div>
+ <div class="item" style="padding:24px 40px"><div class="ic">✈️</div><div>출국 대기<small>3개월 범위 (2026년 7월 6개월→3개월)</small></div></div>
+</div>
+</div>
+
+<div class="card" id="c4" style="background:linear-gradient(160deg,#4a3f2a,#2b2418)">
+<div class="h"><span class="num">3</span><span>신청 방법</span></div>
+<div class="list">
+ <div class="item"><div class="ic">🔎</div><div>사유·서류 확인<small>병무청 누리집 입영일자 연기 안내</small></div></div>
+ <div class="item"><div class="ic">📄</div><div>병역이행일 연기신청서<small>+ 증빙서류 (질병은 병무용진단서 등)</small></div></div>
+ <div class="item"><div class="ic">📱</div><div>심사 후 개별 통보<small>지방병무청이 휴대폰 등으로 알려줘요</small></div></div>
+</div>
+<div class="foot">마감 기한은 병무청에 직접 확인 · 1588-9090</div>
+</div>
+
+<div class="card" id="c5" style="background:linear-gradient(160deg,#3e4d30,#1f2818)">
+<div class="h"><span class="num">4</span><span>본인선택 입영자 주의</span></div>
+<div class="list">
+ <div class="item"><div class="ic">📅</div><div>날짜를 직접 고른 경우<small>질병·군 지원 등 부득이한 경우만 연기</small></div></div>
+ <div class="item"><div class="ic">🗓️</div><div>학기·시험·여행 일정 먼저<small>신청 전에 한 번에 따져 보기</small></div></div>
+ <div class="item"><div class="ic">🎯</div><div>전역 후 계획까지<small>입대 시기 = 전역·복학 시기</small></div></div>
+</div>
+</div>
+</body></html>
